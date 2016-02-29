@@ -1,3 +1,4 @@
+changes in gallayview.blade.php
 @extends('myFile')
 @section('content')
 
