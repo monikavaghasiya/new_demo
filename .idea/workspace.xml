@@ -321,7 +321,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456847119987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created abc model">
+      <created>1456847576711</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1456847576711</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -375,7 +381,8 @@
     <MESSAGE value="chanfes" />
     <MESSAGE value="i have made some changes" />
     <MESSAGE value="i have made some changes again" />
-    <option name="LAST_COMMIT_MESSAGE" value="i have made some changes again" />
+    <MESSAGE value="created abc model" />
+    <option name="LAST_COMMIT_MESSAGE" value="created abc model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
