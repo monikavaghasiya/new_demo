@@ -21,6 +21,8 @@ Route::post('cards/{id}','cardsController@addComment');
 Route::get('cards/edit/{id}','cardsController@editComment');
 Route::post('cards/edit/update/{id}','cardsController@updateComment');
 
+Route::get('relation','Relation@index');
+
 //Route::get('/','FlyersController@index');
 //Flyers
 

@@ -12,6 +12,7 @@ class CreatePhotosTable extends Migration
      */
     public function up()
     {
+
         Schema::create('photos', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('flyer_id')->unsigned();
