@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3451726-6adb-4e2e-b235-1cb21cfcb26e" name="Default" comment="created abc model">
+    <list default="true" id="a3451726-6adb-4e2e-b235-1cb21cfcb26e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="new_demo.iws" />
@@ -333,7 +333,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456847596329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created abc model">
+      <created>1456847763344</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1456847763344</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
