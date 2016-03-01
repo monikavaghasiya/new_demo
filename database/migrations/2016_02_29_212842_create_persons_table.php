@@ -3,21 +3,20 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePhotosTable extends Migration
+class CreatePersonsTable extends Migration
 {
     /**
      * Run the migrations.
      *
      * @return void
      */
+  //  protected $table = 'persons';
     public function up()
     {
 
-        Schema::create('photos', function (Blueprint $table) {
+        Schema::create('persons', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('flyer_id')->unsigned();
-            $table->foreign('flyer_id')->references('id')->on('flyers')->onDelete('cascade');
-            $table->string('photos');
+            $table->string('user_name');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreatePhotosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('photos');
+        Schema::drop('persons');
     }
 }
